@@ -188,9 +188,6 @@ body #features .text-container .checked-features {
   display: flex;
   gap: 5em;
 }
-body #features .text-container .checked-features ul {
-  margin-left: 3em;
-}
 body #features .text-container .checked-features ul li {
   font-family: Poppins;
   font-size: 1.1rem;
