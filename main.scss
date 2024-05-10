@@ -364,10 +364,7 @@ body {
     }
   }
   .integration {
-    //margin-top: 6em;
     background: #f6f6f6;
-    background: blue;
-    //display: none;
 
     .integration-container {
       display: flex;
@@ -523,7 +520,6 @@ body {
   }
   .streamline {
     background: #ffffff;
-    background: red;
     .streamline-container {
       padding: 6em;
       display: flex;
@@ -633,7 +629,6 @@ body {
   .working {
     background: #fdf4ff;
     padding: 6em;
-    background: green;
 
     .working-container {
       .text-container {
@@ -769,7 +764,6 @@ body {
   }
   .testimonial {
     background: #ffffff;
-    background: red;
     padding: 3em;
     .text-container {
       h5 {
@@ -811,7 +805,6 @@ body {
         border-radius: 16px;
         border: 1px solid #eef2f6;
         background: #ffffff;
-        background: yellow;
         box-shadow: 0px 12px 16px -4px #10182814;
         box-shadow: 0px 4px 6px -2px #10182808;
         padding: 3em;
@@ -934,6 +927,8 @@ body {
   }
   footer {
     padding: 4em;
+    background: #eef2f6;
+
     .footer-container {
       display: flex;
       flex-direction: column;
