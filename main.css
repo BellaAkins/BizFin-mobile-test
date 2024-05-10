@@ -72,7 +72,6 @@ body header .cta-buttons {
   display: none;
 }
 body #hero {
-  background: blue;
   margin-top: 4em;
   font-family: poppins;
 }
@@ -146,7 +145,6 @@ body #features {
   flex-direction: column;
   justify-content: center;
   gap: 10em;
-  display: none;
 }
 body #features .text-container {
   margin-top: 7em;
