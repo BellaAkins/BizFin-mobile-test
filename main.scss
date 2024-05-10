@@ -38,11 +38,7 @@ body {
     #ffffff 55%,
     #eef2f6 59%
   );
-  .container {
-    //width: 365px;
-    // margin: 0 auto;
-    background: purple;
-  }
+
   header {
     display: flex;
     justify-content: space-around;
@@ -171,7 +167,6 @@ body {
   #features {
     padding: 3em;
     background: #f7f9fa;
-    background: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,14 +214,14 @@ body {
         //display: none;
       }
       .checked-features {
-        margin-top: 1.5em;
         display: flex;
         gap: 5em;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 3em;
 
         //CHECKMARK BEFORE TEXt
         ul {
-        width: 200px;
-          margin: 0 auto;
           li {
             font-family: Poppins;
             font-size: 1.1rem;
@@ -938,7 +933,6 @@ body {
     }
   }
   footer {
-    background: lightblue;
     padding: 4em;
     .footer-container {
       display: flex;
@@ -1093,6 +1087,81 @@ body {
         ul {
           a {
             font-size: 18px;
+          }
+        }
+      }
+    }
+    #hero {
+      margin-top: 4em;
+      font-family: poppins;
+      h1 {
+        margin-top: 2.3em;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 57.25px;
+        width: 640px;
+        margin: 0 auto;
+        text-align: center;
+
+        span {
+          color: #2686ca;
+        }
+      }
+      p {
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #697586;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 2em;
+        padding: 0.5em;
+        //display: none;
+      }
+      img {
+        width: 100%;
+        // display: none;
+      }
+
+      .hero-ctas {
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        display: none;
+
+        a {
+          padding: 0.6em 0.8em;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: center;
+          border-radius: 32px;
+          width: 131px;
+          height: 40px;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: center;
+        }
+
+        .get-started {
+          background: #79c0f2;
+          border: 1px solid #2686ca;
+          color: #ffffff;
+
+          &:hover {
+            background: #2686ca;
+          }
+        }
+
+        .learn-more {
+          background: #ffffff;
+          color: #364152;
+
+          &:hover {
+            border: 1px solid #2686ca;
           }
         }
       }
@@ -1752,10 +1821,11 @@ body {
 
           p {
             font-family: Poppins;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 28px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
             text-align: left;
+            width: 325px;
             color: #697586;
             margin-top: 1.4em;
           }
