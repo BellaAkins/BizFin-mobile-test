@@ -308,7 +308,6 @@ body #features .image-container .images .inventory {
 }
 body .integration {
   background: #f6f6f6;
-  background: blue;
 }
 body .integration .integration-container {
   display: flex;
@@ -446,7 +445,6 @@ body .integration .integration-container .text-container .buttons .learn-more im
 }
 body .streamline {
   background: #ffffff;
-  background: red;
 }
 body .streamline .streamline-container {
   padding: 6em;
@@ -532,7 +530,6 @@ body .streamline .streamline-container .image-container {
 body .working {
   background: #fdf4ff;
   padding: 6em;
-  background: green;
 }
 body .working .working-container .text-container {
   text-align: center;
@@ -651,7 +648,6 @@ body .working .working-container .questions-container a:hover {
 }
 body .testimonial {
   background: #ffffff;
-  background: red;
   padding: 3em;
 }
 body .testimonial .text-container h5 {
@@ -691,7 +687,6 @@ body .testimonial .testimonial-box .first {
   border-radius: 16px;
   border: 1px solid #eef2f6;
   background: #ffffff;
-  background: yellow;
   box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.0784313725);
   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.031372549);
   padding: 3em;
@@ -802,6 +797,7 @@ body .advert .buttons .learn-more img {
 }
 body footer {
   padding: 4em;
+  background: #eef2f6;
 }
 body footer .footer-container {
   display: flex;
