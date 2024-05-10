@@ -176,7 +176,6 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10em;
-    display: none;
 
     .text-container {
       margin-top: 7em;
@@ -193,6 +192,7 @@ body {
         height: 32px;
         padding: 4px 12px;
         border-radius: 24px;
+        display: none;
       }
 
       h3 {
@@ -206,6 +206,7 @@ body {
         color: #202939;
         margin-bottom: 0.6em;
         margin-top: 0.4em;
+        display: none;
       }
       p {
         width: 320px;
@@ -216,11 +217,13 @@ body {
         line-height: 24px;
         text-align: left;
         color: #697586;
+        display: none;
       }
       .checked-features {
         margin-top: 1.5em;
         display: flex;
         gap: 5em;
+        display: none;
         //CHECKMARK BEFORE TEXt
         ul {
           width: 100px;
@@ -370,7 +373,7 @@ body {
     //margin-top: 6em;
     background: #f6f6f6;
     background: blue;
-    display: none;
+    //display: none;
 
     .integration-container {
       display: flex;
