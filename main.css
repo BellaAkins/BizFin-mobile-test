@@ -189,6 +189,7 @@ body #features .text-container .checked-features {
   margin-top: 1.5em;
   display: flex;
   gap: 5em;
+  display: none;
 }
 body #features .text-container .checked-features ul {
   width: 100px;
