@@ -145,6 +145,7 @@ body #features {
   flex-direction: column;
   justify-content: center;
   gap: 10em;
+     display: none;
 }
 body #features .text-container {
   margin-top: 7em;
