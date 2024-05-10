@@ -316,7 +316,7 @@ body #features .image-container .images .inventory {
 body .integration {
   background: #f6f6f6;
   background: blue;
-  display: none;
+
 }
 body .integration .integration-container {
   display: flex;
