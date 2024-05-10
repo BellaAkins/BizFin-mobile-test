@@ -168,11 +168,10 @@ body #features .text-container h3 {
   font-weight: 700;
   line-height: 48px;
   text-align: left;
-  width: 325px;
+  width: 305px;
   color: #202939;
   margin-bottom: 0.6em;
   margin-top: 0.4em;
-  display: none;
 }
 body #features .text-container p {
   width: 320px;
